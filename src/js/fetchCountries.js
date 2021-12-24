@@ -1,4 +1,3 @@
-import { nothingToShow } from "./notifyStickers";
 export default async function fetchCountries(BASE_URL, countryName) {
   try {
     const response = await fetch(`${BASE_URL}${countryName}`);

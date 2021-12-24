@@ -1,7 +1,11 @@
 .country-box {
-  width: 600px;
-  padding: 20px 0;
+  width: max-content;
+  height: auto;
+  padding: 20px;
   margin: 0 auto;
+  background-color: lightblue;
+  border: 2px solid darkgreen;
+  border-radius: 4px;
 }
 
 .country-info {
@@ -17,4 +21,5 @@
 
 .language-item {
   list-style-type: disclosure-closed;
+  margin-left: 20px;
 }
