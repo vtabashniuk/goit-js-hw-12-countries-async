@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/index.html -p 5555",
     "build": "parcel build --public-url /goit-js-hw-12-countries-async/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
